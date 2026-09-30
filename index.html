@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>A Little Something For Julie 💗</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Background -->
+    <div class="background"></div>
+
+    <!-- Floating hearts -->
+    <div class="hearts"></div>
+
+    <!-- Main Card -->
+    <main class="card">
+      <div class="top-heart">💗</div>
+
+      <p class="small-title">A LITTLE SOMETHING FOR YOU</p>
+
+      <h1>
+        Hi, Julie
+        <span>🌷</span>
+      </h1>
+
+      <p class="intro">
+        Before you continue your day or close your eyes tonight, I just wanted
+        to leave you something small to remind you that you are appreciated. ✨
+      </p>
+
+      <!-- Buttons -->
+      <div class="button-container">
+        <button class="love-button" onclick="showMessage('verse')">
+          <span>📖</span>
+          <div>
+            <strong>Bible Verse</strong>
+            <small>A little encouragement</small>
+          </div>
+        </button>
+
+        <button class="love-button" onclick="showMessage('reminder')">
+          <span>💗</span>
+          <div>
+            <strong>Little Reminder</strong>
+            <small>Something to remember</small>
+          </div>
+        </button>
+
+        <button class="love-button" onclick="showMessage('day')">
+          <span>🌼</span>
+          <div>
+            <strong>For Your Day</strong>
+            <small>A little sunshine</small>
+          </div>
+        </button>
+
+        <button class="love-button" onclick="showMessage('night')">
+          <span>🌙</span>
+          <div>
+            <strong>For Your Night</strong>
+            <small>Something peaceful</small>
+          </div>
+        </button>
+
+        <button class="love-button special" onclick="showMessage('heart')">
+          <span>💌</span>
+          <div>
+            <strong>Open My Heart</strong>
+            <small>Something from me to you</small>
+          </div>
+        </button>
+      </div>
+
+      <!-- Message -->
+      <section class="message-card">
+        <div class="message-icon">✨</div>
+
+        <p id="message">
+          Choose one of the little buttons above.
+          <br />
+          I left something special for you. 💕
+        </p>
+      </section>
+
+      <!-- Signature -->
+      <div class="bottom-message">
+        <p>Take care of yourself, Julie. 🌸</p>
+
+        <p>
+          Always wishing you good health, happiness, success, and beautiful days
+          ahead.
+        </p>
+
+        <div class="line"></div>
+
+        <p class="signature">
+          With care,
+          <br />
+          <span>James 💗</span>
+        </p>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
